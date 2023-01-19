@@ -21,3 +21,4 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.post('/orders', 'OrdersController.updateOrCreate')
+Route.post('/tasks', 'TasksController.updateOrCreate')

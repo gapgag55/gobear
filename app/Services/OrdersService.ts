@@ -1,5 +1,4 @@
-// import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import OrdersRepository from 'App/Repositories/OrderRepository'
+import OrdersRepository from 'App/Repositories/OrdersRepository'
 
 export default class OrdersService {
   public async updateOrCreate (payload: Object) {
